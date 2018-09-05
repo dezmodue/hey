@@ -54,6 +54,7 @@ Options:
   -disable-redirects    Disable following of HTTP redirects
   -cpus                 Number of used cpu cores.
                         (default for current machine is 8 cores)
+  -listen-address		Address on which to expose metrics, defaults to localhost:8080
 ```
 
 Previously known as [github.com/rakyll/boom](https://github.com/rakyll/boom).
